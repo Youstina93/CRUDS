@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+.cruds {
+    
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+.head {
+    margin-top: 30px;
+    
+}
+input {
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 8px 0;
+}
+input:hover{
+    background-color:rgb(249, 241, 231);
+    transform: scale(1.1);
+}
+    
+small {
+    background-color: brown;
+    padding: 5px;
+}
+#total::before{
+    content: 'total: ';
+}
+
+button{
+ margin-top: 15px;
+width: 80%;
+background-color: blueviolet;
+border-radius: 5px;
+height: 40px;
+cursor:  pointer;
+transition: 0.5s;
+}
+#create:hover {
+    letter-spacing: 1px;
+}
+#calc input {
+width: 260px;
+}
+#searchButton button:hover{
+    letter-spacing: 1px;
+}
+
+#searchButton  {
+    display: flex;
+    justify-content: space-between;
+}
+#searchButton button {
+    width: 40%;
+}
+#table {
+    width: 100%;
+    margin: 5px 0;
+    padding: 5px; 
+    text-align: center;
+}
+#update:hover {
+    letter-spacing: 1px;
+}
+#delete:hover{
+    letter-spacing: 1px;
+}
+#deleteALL:hover
+{
+    letter-spacing: 1px;
+}
